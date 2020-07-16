@@ -1,0 +1,437 @@
+* {
+    font-family: helvetica;
+    margin: 0 auto;
+  
+  }
+  
+  body {
+    margin: 0 auto;
+    margin-right: 0;
+    margin-left: 0;
+  
+  }
+  
+  #menu {
+    background-color: #8e303d;
+  }
+  
+  .starter-template {
+    padding: 40px 15px;
+    text-align: center;
+  }
+  
+  ul.navbar-nav {
+    float: right;
+    text-align: center;
+  }
+  
+  ul.navbar-nav li {
+    padding: 0 10px;
+  }
+  
+  @media only screen and (max-width:767px) {
+    ul.navbar-nav {
+      float: none;
+      background-color: #8e303d;
+    }
+  }
+  
+  .container-fluid {
+    padding: 0 1em;
+  }
+  
+  .navbar-nav li a {
+    color: white !important;
+    font-size: 1.2em;
+    font-family: helvetica;
+    font-weight: 600;
+    transition: 0.4s ease;
+  }
+  
+  .navbar-nav li a:hover {
+    color: #fff !important;
+    background-color: black !important;
+  }
+  
+  .navbar-brand {
+    padding: 10px 15px !important;
+  }
+  
+  a.navbar-brand .fa-globe {
+    font-size: 30px;
+    color: white;
+    transition: 0.5s ease;
+  }
+  
+  a.navbar-brand .fa-globe:hover {
+    color: #d6bca6;
+  }
+  
+  .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black !important;
+  }
+  
+  .navbar-inverse .navbar-toggle:hover,
+  .navbar-inverse .navbar-toggle:focus {
+    background-color: #8e303d !important;
+  }
+  
+  h1.intro-text {
+    margin: 0;
+    color: #fff;
+  }
+  
+  
+  
+  .name {
+    font-size: 3.5em;
+  }
+  
+  #splashs {
+    background-color: rgb(31, 31, 31);
+    padding-top: 90px;
+    color: white;
+  
+  }
+  
+  
+  
+  #about,
+  #projects,
+  #education,
+  #skills {
+    padding-top: 4em !important;
+  }
+  
+  section h2 {
+    margin: 0;
+    font-size: 3em;
+  }
+  
+  section.success {
+    color: #fff;
+    background: #d6bca6;
+    padding: 2%;
+  }
+  
+  section.success a {
+    color: black;
+    transition: 0.4s ease;
+  }
+  
+  section.success a:hover {
+    outline: 0;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  
+  .contact-button {
+    padding-bottom: 2%;
+  }
+  
+  hr.star-light,
+  hr.star-portfolio {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 3px;
+    text-align: center;
+  }
+  
+  hr.star-light:after,
+  hr.star-portfolio:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+  }
+  
+  hr.star-light {
+    border-color: #fff;
+  }
+  
+  hr.star-portfolio {
+    border-color: white;
+  }
+  
+  hr.star-portfolio:after {
+    color: white;
+  }
+  
+  hr.star-light:after {
+    color: #fff;
+  }
+  
+  p.content-text {
+    font-size: 25px;
+  }
+  
+  
+  /* PROJECTS */
+  .portfolio-card {
+    box-shadow: 0px 2px 5px #888888;
+    background: #eee;
+    border-radius: 4px;
+  }
+  
+  #projects {
+    background-color: rgb(40, 40, 40);
+  }
+  
+  .portfolio-card:hover {
+    box-shadow: 0px 10px 10px #888888;
+    cursor: pointer
+  }
+  
+  .portfolio-container-holder {
+    background: #eee;
+    padding-bottom: 20px;
+  }
+  
+  .portfolio-card-holder {
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .portfolio-img {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  .portfolio-img-desc {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  #rp {
+    color: white;
+  }
+  
+  /* CONTACT */
+  .contact-me-container {
+    padding: 3%;
+    background: #d6bca6;
+    color: black
+  }
+  
+  .fa-user,
+  .fa-at,
+  .fa-phone {
+    color: black;
+  }
+  
+  .submit-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  /* FOOTER */
+  footer {
+    background-color: #8e303d;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 3%;
+  }
+  
+  a.tel,
+  a.tel:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a.social-button {
+    background: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    margin: 5px;
+  }
+  
+  .address-container {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+  a.link-facebook,
+  a.link-twitter,
+  a.link-linkedin,
+  a.link-github {
+    transition: 0.4s ease;
+  }
+  
+  a.link-twitter {
+    color: #1DA1F2;
+  }
+  
+  a.link-facebook {
+    color: #3b5998;
+  }
+  
+  a.link-linkedin {
+    color: #007bb6;
+  }
+  
+  a.link-github {
+    color: #333;
+  }
+  
+  a.link-facebook:hover {
+    background-color: #3b5998;
+    color: #fff;
+  }
+  
+  a.link-twitter:hover {
+    background-color: #1DA1F2;
+    color: #fff;
+  }
+  
+  a.link-linkedin:hover {
+    background-color: #007bb6;
+    color: #fff;
+  }
+  
+  a.link-github:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: transparent !important;
+  }
+  
+  .fa-heart {
+    color: #f32323;
+  }
+  
+  h4.author {
+    letter-spacing: 4px;
+  }
+  
+  hr.footer-hr {
+    width: 150px;
+  }
+  
+  hr.copyright {
+    opacity: 0.4;
+  }
+  
+  .btn {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    background-color: #8e303d;
+    color: white;
+  }
+  
+  .card-text {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  
+  #skills span {
+    top: -30px;
+    left: 2%;
+    position: relative;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: monospace;
+    color: #fff;
+  }
+  
+  progress {
+    background-color: black;
+    border: 0;
+    height: 2.5em;
+    width: 100%;
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: white;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: #d6bca6;
+  }
+  
+  .skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  span {
+    color: white !important;
+    font-family: helvetica !important;
+  }
+  
+  #skills {
+    background-color: #8e303d;
+  }
+  
+  .card {
+    color: black;
+  }
+  
+  .mail {
+    color: white;
+  }
+  
+  #btn1 {
+    margin-top: 5px;
+  }
+  
+  #about {
+    color: #8e303d;
+  }
+  
+  .pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .card-text {
+    color: black;
+    font-size: 1.3em;
+    padding-right: 5px;
+  }
+  
+  #mail {
+    color: white;
+  }
+  
+  #edu {
+    padding-bottom: 50px;
+  }
+  
+  .number {
+    color: white !important;
+  }
+  
+  .experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 30vh;
+    background-color: #8e303d;
+    color: white;
+    font-family: helvetica;
+    font-size: 1.3em;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
